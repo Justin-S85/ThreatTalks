@@ -2,24 +2,23 @@
 
 source "https://rubygems.org"
 
-# Pin specific versions of problematic gems
-gem "jekyll-theme-chirpy", "~> 5.0"  # Use a version compatible with Jekyll 4.x
-gem "github-pages", "~> 222"  # Update to a version compatible with Jekyll 4.x
+# Downgrade jekyll to version 3.x
+gem "jekyll", "~> 3.9.0"
+gem "jekyll-theme-chirpy", "~> 4.1"  # Compatible with jekyll 3.x
 
-# Add kramdown version compatibility
-gem "kramdown", ">= 1.2", "< 3.0"  # Ensure kramdown is in the correct version range to avoid conflicts
+gem "github-pages", "~> 207"  # Version compatible with jekyll 3.x
 
-# Include any additional dependencies for testing
+# Ensure compatibility with kramdown
+gem "kramdown", ">= 1.2", "< 3.0"
+
+# Additional gem dependencies
 gem "html-proofer", "~> 5.0", group: :test
+gem "terminal-table", "~> 1.7", ">= 1.7.1"
 
-# Make sure other gems are compatible with Jekyll and Github Pages
-gem "terminal-table", "~> 1.7", ">= 1.7.1"  # Compatible version for terminal-table
-
-# Add timezone data support for Windows
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end
 
-# Windows-specific gem for watching file changes
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+
