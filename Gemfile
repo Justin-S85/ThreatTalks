@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # Pin specific versions of problematic gems
-gem "jekyll-theme-chirpy", "~> 4.0"  # Downgraded to a version compatible with Jekyll 3.9.2 (github-pages)
+gem "jekyll-theme-chirpy", "~> 3.0"  # Downgraded to a version compatible with Jekyll 3.9.2
 gem "github-pages", "~> 226" # Pin to a version compatible with your setup
 
 # Add kramdown version compatibility
@@ -23,4 +23,3 @@ end
 
 # Windows-specific gem for watching file changes
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
-
