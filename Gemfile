@@ -3,8 +3,8 @@
 source "https://rubygems.org"
 
 # Pin specific versions of problematic gems
-gem "jekyll-theme-chirpy", "~> 3.0"  # Downgraded to a version compatible with Jekyll 3.9.2
-gem "github-pages", "~> 226" # Pin to a version compatible with your setup
+gem "jekyll-theme-chirpy", "~> 5.0"  # Use a version compatible with Jekyll 4.x
+gem "github-pages", "~> 222"  # Update to a version compatible with Jekyll 4.x
 
 # Add kramdown version compatibility
 gem "kramdown", ">= 1.2", "< 3.0"  # Ensure kramdown is in the correct version range to avoid conflicts
