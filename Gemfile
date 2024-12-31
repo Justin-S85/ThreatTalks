@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.9.2"  # Version compatible with GitHub Pages
-gem "jekyll-theme-chirpy", "~> 4.0"  # Compatible version of Chirpy for Jekyll 3.9.2
-gem "github-pages", "~> 226"  # Pin to GitHub Pages version that works with Jekyll 3.9.2
+gem "jekyll", "~> 4.3"  # Use a version of Jekyll that works with Chirpy
+gem "jekyll-theme-chirpy", "~> 5.4"  # Compatible version of Chirpy for Jekyll 4.x
 
 gem "html-proofer", "~> 5.0", group: :test
 
@@ -14,4 +13,3 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
-
