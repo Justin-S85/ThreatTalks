@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 # Pin specific versions of problematic gems
 gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
-gem "github-pages", "~> 227"  # Pin to a version compatible with your setup
+gem "github-pages", "~> 226" # Pin to a version compatible with your setup
 gem "html-proofer", "~> 5.0", group: :test
 
 gem "kramdown", ">= 1.2", "< 3.0"  # Pin kramdown version to avoid conflict
