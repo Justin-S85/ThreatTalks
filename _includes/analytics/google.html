@@ -1,23 +1,8 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E56CFBX2HK"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+  function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  // Configure GA4 with explicit page_view tracking
-  gtag('config', 'G-E56CFBX2HK', {
-    send_page_view: true, // Ensure page views are tracked
-    debug_mode: true // Enable debug mode for testing
-  });
-
-  // Log GA events to console for debugging
-  if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-    console.log('Google Analytics loaded in debug mode.');
-    gtag('event', 'debug_mode', {
-      'debug_message': 'GA4 is running in debug mode.'
-    });
-  }
+  gtag('config', '{{ site.google_analytics }}');
 </script>

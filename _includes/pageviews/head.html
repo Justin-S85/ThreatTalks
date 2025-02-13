@@ -57,10 +57,16 @@
     {{ site.title }}
   </title>
 
-  <!-- Google Analytics -->
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include analytics/google.html %}
-  {% endif %}
+{% if jekyll.environment == 'production' %}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E56CFBX2HK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E56CFBX2HK');
+  </script>
+{% endif %}
 
   {% include_cached favicons.html %}
 
