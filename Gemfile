@@ -3,8 +3,12 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"  # Use a version of Jekyll that works with Chirpy
 gem "jekyll-theme-chirpy", "~> 5.4"  # Compatible version of Chirpy for Jekyll 4.x
 
-gem "html-proofer", "~> 5.0", group: :test
+# Add the include-cache plugin
+group :jekyll_plugins do
+  gem "jekyll-include-cache"
+end
 
+gem "html-proofer", "~> 5.0", group: :test
 gem "kramdown", ">= 1.2", "< 3.0"
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
