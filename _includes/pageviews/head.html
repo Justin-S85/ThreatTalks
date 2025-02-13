@@ -112,10 +112,6 @@
       ></script>
     {% endif %}
 
-    {% if site.google_analytics %}
-      {% include analytics/google.html %}
-    {% endif %}
-    
     <!-- Web Analytics -->
     {% for analytics in site.analytics %}
       {% capture str %}{{ analytics }}{% endcapture %}
