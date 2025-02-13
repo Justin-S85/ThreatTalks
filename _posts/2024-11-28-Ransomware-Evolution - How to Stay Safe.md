@@ -1,6 +1,6 @@
 ---
 title: Ransomware Evolution - How to Stay Ahead of the Curve 
-date: 2024-12-24
+date: 2024-11-28
 categories: [ransomware, security, cybersecurity]
 tags: [ransomware, incident response, cyber defense, risk management]
 ---

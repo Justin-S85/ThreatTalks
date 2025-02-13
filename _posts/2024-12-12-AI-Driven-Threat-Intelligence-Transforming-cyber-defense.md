@@ -1,6 +1,6 @@
 ---
 title: AI-Driven Threat Intelligence - Transforming Cyber Defense 
-date: 2024-12-31
+date: 2024-12-12
 categories: [ai, threat intelligence, cyber defense]
 tags: [ai, threat intelligence, machine learning, cybersecurity]
 ---

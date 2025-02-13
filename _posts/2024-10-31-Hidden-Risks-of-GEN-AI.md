@@ -1,6 +1,6 @@
 ---
 title: Hidden Risks of GEN AI - What CISOs Need to Know
-date: 2024-12-10
+date: 2024-10-31
 categories: [generative ai, risk management, security strategy]
 tags: [gen ai, security strategy, risk management]
 ---

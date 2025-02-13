@@ -1,6 +1,6 @@
 ---
 title: Breaking Down DevSecOps into Key Practices for Seamless Integration 
-date: 2024-12-20
+date: 2024-10-17
 categories: [devsecops, security automation, product security]
 tags: [shift left, devsecops, cultural transformation]
 ---

@@ -1,6 +1,6 @@
 ---
 # Cellular Security Compromised: 119 Vulnerabilities Discovered Across LTE and 5G  
-date: 2025-01-28
+date: 2025-01-30
 categories: [cellular vulnerabilities, 5G security challenges]
 tags: [vulnerability management, security monitoring and response, telecoms security]  
 ---

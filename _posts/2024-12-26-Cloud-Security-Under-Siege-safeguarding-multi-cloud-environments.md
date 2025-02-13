@@ -1,6 +1,6 @@
 ---
 topic: # Cloud Security Under Siege: Safeguarding Multi-Cloud Environments for Top Enterprises
-date: 2025-01-16
+date: 2024-12-26
 categories: [cloud security, multi-cloud environment]
 tags: [security automation, identity and access management, cloud security]  
 ---

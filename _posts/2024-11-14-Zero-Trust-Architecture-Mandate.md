@@ -1,6 +1,6 @@
 ---
 title: Zero Trust Architecture - A Modern Mandate for Cybersecurity 
-date: 2024-12-14
+date: 2024-11-14
 categories: [zero trust architecture, security architecture, cybersecurity]
 tags: [security architecture, security strategy, zero trust architecture]
 ---
