@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://tse1.mm.bing.net/th?id=OIP.O78bOvY0bOh7Qwkj5mx7GwHaH_&w=474&h=474&c=7
+avatar: https://tse2.mm.bing.net/th?id=OIP.WiN47sBNrf45L-zMuP6_CQHaHa&w=474&h=474&c=7
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
