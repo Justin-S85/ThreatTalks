@@ -57,6 +57,11 @@
     {{ site.title }}
   </title>
 
+  <!-- Google Analytics -->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics/google.html %}
+  {% endif %}
+
   {% include_cached favicons.html %}
 
   <!-- Resource Hints -->
