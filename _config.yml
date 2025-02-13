@@ -211,7 +211,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [production]
+    envs: [development | production]
 
 exclude:
   - "*.gem"
