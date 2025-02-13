@@ -1,5 +1,5 @@
 ---
-topic: The Rise of Shadow AI - Navigating the Unseen Threats in Enterprise Security
+title: The Rise of Shadow AI - Navigating the Unseen Threats in Enterprise Security
 date: 2025-02-12
 categories: [artificial intelligence, cybersecurity, enterpise technology]
 tags: [shadow ai, unathorized ai tools, data security, compliance]  
