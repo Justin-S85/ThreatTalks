@@ -108,25 +108,15 @@
     {% endif %}
 
     <!-- Web Analytics -->
-    {% if jekyll.environment == 'production' %}
-      {% for analytics in site.analytics %}
-        {% capture str %}{{ analytics }}{% endcapture %}
-        {% assign platform = str | split: '{' | first %}
-        {% if site.analytics[platform].id and site.analytics[platform].id != empty %}
-          {% include analytics/{{ platform }}.html %}
-        {% endif %}
-      {% endfor %}
-
-      <!-- Explicitly include Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-E56CFBX2HK"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-E56CFBX2HK');
-      </script>
-    {% endif %}
+    {% for analytics in site.analytics %}
+      {% capture str %}{{ analytics }}{% endcapture %}
+      {% assign platform = str | split: '{' | first %}
+      {% if site.analytics[platform].id and site.analytics[platform].id != empty %}
+        {% include analytics/{{ platform }}.html %}
+      {% endif %}
+    {% endfor %}
   {% endif %}
 
   {% include metadata-hook.html %}
 </head>
+
