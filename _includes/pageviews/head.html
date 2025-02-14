@@ -134,4 +134,7 @@
   {% endif %}
 
   {% include metadata-hook.html %}
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
