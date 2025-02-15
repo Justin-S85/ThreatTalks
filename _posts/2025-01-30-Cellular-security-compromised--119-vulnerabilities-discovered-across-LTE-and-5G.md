@@ -68,7 +68,7 @@ In a demonstration of responsible disclosure, the research team notified maintai
 
 The discovery of 119 vulnerabilities across LTE and 5G networks is a wake-up call for the telecommunications industry. As cellular networks continue to underpin our modern digital ecosystem, securing them against sophisticated cyber threats is more critical than ever. Through proactive testing frameworks like RANsacked and industry collaboration, we can address these vulnerabilities head-on and build a more resilient future.
 
-For further insights and ongoing updates on cellular security, stay tuned to **ThreatTalks**—your trusted source for cutting-edge cybersecurity intelligence.
+For further insights and ongoing updates on cellular security, stay tuned to **ExploitDiaries**—your trusted source for cutting-edge cybersecurity intelligence.
 
 ---
 
